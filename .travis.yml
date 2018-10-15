@@ -1,0 +1,6 @@
+deploy:
+  provider: script
+  script: bash run.sh
+  on:
+    branch: master
+language: generic
